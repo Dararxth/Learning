@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putanginamo</title>
+    <style>
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.3s;
+            margin-top: 200px;
+        }
+        h1:hover {
+            letter-spacing: 4px;
+            cursor: pointer;
+        }
+        .btn {
+            margin-top: 300px;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        button {
+            margin-top: 300px;
+            border: 1px solid black;
+            background: #4375ff;
+            padding: 20px 150px;
+            text-align: center;
+            color: #fff;
+            text-transform: uppercase;
+            transition: 0.2s ease;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: black;
+            cursor: pointer;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="urmom"></h1>
+    <div class="btn">
+        <button onclick="urMomGay()">Click Me</button>
+    </div>
+
+    
+
+
+    <script>
+        function urMomGay() {
+         document.getElementById("urmom").innerHTML = "Ur Mom Gay !";
+        }
+    </script>
+</body>
+</html>
